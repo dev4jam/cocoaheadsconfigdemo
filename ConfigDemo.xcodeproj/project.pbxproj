@@ -34,8 +34,34 @@
 		0A9FD83B24417CE100A6B4D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD8072441782300A6B4D8 /* InfoPlist.strings */; };
 		0A9FD83C24417CE100A6B4D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD8052441782300A6B4D8 /* Localizable.strings */; };
 		0A9FD83D24417CE100A6B4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD7EF2441753E00A6B4D8 /* Assets.xcassets */; };
+		0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */; };
+		0A9FD84F24417E6600A6B4D8 /* Notifications.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A9FD84824417E6600A6B4D8 /* Notifications.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E417216E3ADFB4C3AEDE4008 /* Pods_ConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9FD84D24417E6600A6B4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9FD7DB2441753A00A6B4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9FD84724417E6600A6B4D8;
+			remoteInfo = Notifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A9FD85324417E6600A6B4D8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A9FD84F24417E6600A6B4D8 /* Notifications.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A9FD7E32441753B00A6B4D8 /* ConfigDemoDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemoDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +79,9 @@
 		0A9FD83124417CD800A6B4D8 /* ConfigDemoStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemoStaging-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemoStaging-Info.plist"; sourceTree = "<absolute>"; };
 		0A9FD84224417CE100A6B4D8 /* ConfigDemoProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemoProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9FD84324417CE100A6B4D8 /* ConfigDemoProd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemoProd-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemoProd-Info.plist"; sourceTree = "<absolute>"; };
+		0A9FD84824417E6600A6B4D8 /* Notifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		0A9FD84C24417E6600A6B4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C551D70D4DFA7AA7E573E /* Pods-ConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A9FD84524417E6600A6B4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9FD7E52441753B00A6B4D8 /* ConfigDemo */,
+				0A9FD84924417E6600A6B4D8 /* Notifications */,
 				0A9FD7E42441753B00A6B4D8 /* Products */,
 				4BE10323677FE29350B6C7FA /* Pods */,
 				D216D8350ACD06710CE0EC21 /* Frameworks */,
@@ -111,6 +148,7 @@
 				0A9FD81E24417CC800A6B4D8 /* ConfigDemoTest.app */,
 				0A9FD83024417CD800A6B4D8 /* ConfigDemoStaging.app */,
 				0A9FD84224417CE100A6B4D8 /* ConfigDemoProd.app */,
+				0A9FD84824417E6600A6B4D8 /* Notifications.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,6 +259,15 @@
 			path = LocalizableStrings;
 			sourceTree = "<group>";
 		};
+		0A9FD84924417E6600A6B4D8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */,
+				0A9FD84C24417E6600A6B4D8 /* Info.plist */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		4BE10323677FE29350B6C7FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,10 +297,12 @@
 				0A9FD7E02441753B00A6B4D8 /* Frameworks */,
 				0A9FD7E12441753B00A6B4D8 /* Resources */,
 				7D110A474610AF698B113824 /* [CP] Embed Pods Frameworks */,
+				0A9FD85324417E6600A6B4D8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A9FD84E24417E6600A6B4D8 /* PBXTargetDependency */,
 			);
 			name = ConfigDemoDev;
 			productName = ConfigDemo;
@@ -317,6 +366,23 @@
 			productReference = 0A9FD84224417CE100A6B4D8 /* ConfigDemoProd.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0A9FD84724417E6600A6B4D8 /* Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9FD85024417E6600A6B4D8 /* Build configuration list for PBXNativeTarget "Notifications" */;
+			buildPhases = (
+				0A9FD84424417E6600A6B4D8 /* Sources */,
+				0A9FD84524417E6600A6B4D8 /* Frameworks */,
+				0A9FD84624417E6600A6B4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notifications;
+			productName = Notifications;
+			productReference = 0A9FD84824417E6600A6B4D8 /* Notifications.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,6 +394,9 @@
 				ORGANIZATIONNAME = "Dmitry Klimkin";
 				TargetAttributes = {
 					0A9FD7E22441753B00A6B4D8 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					0A9FD84724417E6600A6B4D8 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -349,6 +418,7 @@
 				0A9FD80E24417CC800A6B4D8 /* ConfigDemoTest */,
 				0A9FD82024417CD800A6B4D8 /* ConfigDemoStaging */,
 				0A9FD83224417CE100A6B4D8 /* ConfigDemoProd */,
+				0A9FD84724417E6600A6B4D8 /* Notifications */,
 			);
 		};
 /* End PBXProject section */
@@ -395,6 +465,13 @@
 				0A9FD83B24417CE100A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD83C24417CE100A6B4D8 /* Localizable.strings in Resources */,
 				0A9FD83D24417CE100A6B4D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9FD84624417E6600A6B4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +673,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A9FD84424417E6600A6B4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9FD84E24417E6600A6B4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9FD84724417E6600A6B4D8 /* Notifications */;
+			targetProxy = 0A9FD84D24417E6600A6B4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0A9FD7F12441753E00A6B4D8 /* LaunchScreen.storyboard */ = {
@@ -744,6 +837,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E99C551D70D4DFA7AA7E573E /* Pods-ConfigDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
@@ -764,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
@@ -900,6 +995,44 @@
 			};
 			name = Release;
 		};
+		0A9FD85124417E6600A6B4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HCL9D4WBY;
+				INFOPLIST_FILE = Notifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-dev.Notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0A9FD85224417E6600A6B4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HCL9D4WBY;
+				INFOPLIST_FILE = Notifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-dev.Notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -944,6 +1077,15 @@
 			buildConfigurations = (
 				0A9FD84024417CE100A6B4D8 /* Debug */,
 				0A9FD84124417CE100A6B4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9FD85024417E6600A6B4D8 /* Build configuration list for PBXNativeTarget "Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9FD85124417E6600A6B4D8 /* Debug */,
+				0A9FD85224417E6600A6B4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
