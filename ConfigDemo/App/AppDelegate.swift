@@ -14,6 +14,11 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         print(Config.baseURL)
+        print(L10n.okActionTitle)
+        
+        let image = UIImage(asset: Asset.addIcon)
+        
+        print(image)
         
         return true
     }

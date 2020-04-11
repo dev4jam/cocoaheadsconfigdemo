@@ -7,4 +7,5 @@ target 'ConfigDemo' do
 
   # Pods for ConfigDemo
   pod 'When'
+  pod 'SwiftGen'
 end

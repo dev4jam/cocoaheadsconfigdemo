@@ -20,6 +20,10 @@
 		0A9FD86C24418D4000A6B4D8 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD85E24417FEB00A6B4D8 /* Config.plist */; };
 		0A9FD87C2441963300A6B4D8 /* ProjectConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD87B2441963300A6B4D8 /* ProjectConfig.swift */; };
 		0A9FD87D2441963300A6B4D8 /* ProjectConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD87B2441963300A6B4D8 /* ProjectConfig.swift */; };
+		0A9FD8812441975A00A6B4D8 /* l10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD87F2441975A00A6B4D8 /* l10n.swift */; };
+		0A9FD8822441975A00A6B4D8 /* l10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD87F2441975A00A6B4D8 /* l10n.swift */; };
+		0A9FD8832441975A00A6B4D8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD8802441975A00A6B4D8 /* Assets.swift */; };
+		0A9FD8842441975A00A6B4D8 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD8802441975A00A6B4D8 /* Assets.swift */; };
 		E417216E3ADFB4C3AEDE4008 /* Pods_ConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,8 @@
 		0A9FD85424417F1500A6B4D8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		0A9FD85E24417FEB00A6B4D8 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		0A9FD87B2441963300A6B4D8 /* ProjectConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectConfig.swift; path = "ConfigDemo/Other-sources/Generated/ProjectConfig.swift"; sourceTree = SOURCE_ROOT; };
+		0A9FD87F2441975A00A6B4D8 /* l10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = l10n.swift; path = "ConfigDemo/Other-sources/Generated/l10n.swift"; sourceTree = SOURCE_ROOT; };
+		0A9FD8802441975A00A6B4D8 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assets.swift; path = "ConfigDemo/Other-sources/Generated/Assets.swift"; sourceTree = SOURCE_ROOT; };
 		21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		43D6FCCD4B51652B9782EC55 /* Pods-ConfigDemo.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.staging.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.staging.xcconfig"; sourceTree = "<group>"; };
 		885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +235,8 @@
 		0A9FD8772441944A00A6B4D8 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				0A9FD8802441975A00A6B4D8 /* Assets.swift */,
+				0A9FD87F2441975A00A6B4D8 /* l10n.swift */,
 				0A9FD87B2441963300A6B4D8 /* ProjectConfig.swift */,
 			);
 			name = Generated;
@@ -263,8 +271,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A9FD7F72441753E00A6B4D8 /* Build configuration list for PBXNativeTarget "ConfigDemo" */;
 			buildPhases = (
-				0A9FD8762441941B00A6B4D8 /* Generate Config */,
 				A5B9322CF969C54870DE1E18 /* [CP] Check Pods Manifest.lock */,
+				0A9FD8762441941B00A6B4D8 /* Generate Config */,
+				0A9FD87E2441971300A6B4D8 /* Generate Assets */,
 				0A9FD7DF2441753B00A6B4D8 /* Sources */,
 				0A9FD7E02441753B00A6B4D8 /* Frameworks */,
 				0A9FD7E12441753B00A6B4D8 /* Resources */,
@@ -376,6 +385,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nset -x\n\n# Get path to SwiftConfigurationGenerator script\nSWIFT_CONFIGURATION_GENERATOR_PATH=${SRCROOT}/${PROJECT_NAME}/Dependencies/SwiftConfigurationGenerator.swift\n\n# The input configuration file\nINPUT_PATH=${SRCROOT}/${PROJECT_NAME}/Resources/Config.plist\n\n# The generated file output path\nOUTPUT_PATH=${SRCROOT}/${PROJECT_NAME}/Other-sources/Generated/ProjectConfig.swift\n\n# Add permission to generator for script execution\nchmod 755 $SWIFT_CONFIGURATION_GENERATOR_PATH\n\n# Execute the script\n$SWIFT_CONFIGURATION_GENERATOR_PATH $INPUT_PATH $OUTPUT_PATH\n";
 		};
+		0A9FD87E2441971300A6B4D8 /* Generate Assets */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Assets";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen xcassets --templatePath $PODS_ROOT/SwiftGen/templates/xcassets/swift4.stencil ${SRCROOT}/${PROJECT_NAME}/Resources/Assets.xcassets > ${SRCROOT}/${PROJECT_NAME}/Other-sources/Generated/Assets.swift\n\n$PODS_ROOT/SwiftGen/bin/swiftgen strings --templatePath $PODS_ROOT/SwiftGen/templates/strings/flat-swift4.stencil ${SRCROOT}/${PROJECT_NAME}/Resources/LocalizableStrings/en.lproj/Localizable.strings > ${SRCROOT}/${PROJECT_NAME}/Other-sources/Generated/l10n.swift\n";
+		};
 		818B0421AFE602DA1BB66CF4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,7 +449,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9FD8812441975A00A6B4D8 /* l10n.swift in Sources */,
 				0A9FD7EB2441753B00A6B4D8 /* ViewController.swift in Sources */,
+				0A9FD8832441975A00A6B4D8 /* Assets.swift in Sources */,
 				0A9FD7E72441753B00A6B4D8 /* AppDelegate.swift in Sources */,
 				0A9FD85524417F1500A6B4D8 /* Config.swift in Sources */,
 				0A9FD87C2441963300A6B4D8 /* ProjectConfig.swift in Sources */,
@@ -433,8 +462,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9FD8822441975A00A6B4D8 /* l10n.swift in Sources */,
 				0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */,
 				0A9FD87D2441963300A6B4D8 /* ProjectConfig.swift in Sources */,
+				0A9FD8842441975A00A6B4D8 /* Assets.swift in Sources */,
 				0A9FD85924417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

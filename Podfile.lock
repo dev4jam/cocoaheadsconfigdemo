@@ -1,16 +1,20 @@
 PODS:
+  - SwiftGen (6.1.0)
   - When (4.0.0)
 
 DEPENDENCIES:
+  - SwiftGen
   - When
 
 SPEC REPOS:
   trunk:
+    - SwiftGen
     - When
 
 SPEC CHECKSUMS:
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   When: 4ffc88d535a094ad4bd5eaf2fd187de747e716d1
 
-PODFILE CHECKSUM: 05eb666dac23011153a2d09b1b4b7b692c4c6c45
+PODFILE CHECKSUM: 831b22a454c4eb62bb53ab060403d706a1cf8b06
 
 COCOAPODS: 1.9.0
