@@ -2,7 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>baseURL</key>
-	<string>dev-api.configdemo.cocoaheads.com.au</string>
+	<key>Dev</key>
+	<dict>
+		<key>baseURL</key>
+		<string>dev-api.configdemo.cocoaheads.com.au</string>
+	</dict>
+    <key>Test</key>
+    <dict>
+        <key>baseURL</key>
+        <string>test-api.configdemo.cocoaheads.com.au</string>
+    </dict>
+    <key>Staging</key>
+    <dict>
+        <key>baseURL</key>
+        <string>staging-api.configdemo.cocoaheads.com.au</string>
+    </dict>
+    <key>Prod</key>
+    <dict>
+        <key>baseURL</key>
+        <string>prod-api.configdemo.cocoaheads.com.au</string>
+    </dict>
 </dict>
 </plist>
