@@ -13,7 +13,6 @@
 		0A9FD7F32441753E00A6B4D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD7F12441753E00A6B4D8 /* LaunchScreen.storyboard */; };
 		0A9FD8092441782300A6B4D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD8052441782300A6B4D8 /* Localizable.strings */; };
 		0A9FD80A2441782300A6B4D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD8072441782300A6B4D8 /* InfoPlist.strings */; };
-		0A9FD80D244179B000A6B4D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD80C244179AF00A6B4D8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		0A9FD8062441782300A6B4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A9FD8082441782300A6B4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A9FD80B244178E200A6B4D8 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
-		0A9FD80C244179AF00A6B4D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +41,6 @@
 		0A9FD7DA2441753A00A6B4D8 = {
 			isa = PBXGroup;
 			children = (
-				0A9FD80C244179AF00A6B4D8 /* Default-568h@2x.png */,
 				0A9FD7E52441753B00A6B4D8 /* ConfigDemo */,
 				0A9FD7E42441753B00A6B4D8 /* Products */,
 			);
@@ -221,7 +218,6 @@
 				0A9FD7F32441753E00A6B4D8 /* LaunchScreen.storyboard in Resources */,
 				0A9FD80A2441782300A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD8092441782300A6B4D8 /* Localizable.strings in Resources */,
-				0A9FD80D244179B000A6B4D8 /* Default-568h@2x.png in Resources */,
 				0A9FD7F02441753E00A6B4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
