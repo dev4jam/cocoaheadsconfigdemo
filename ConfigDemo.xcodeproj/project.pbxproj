@@ -752,7 +752,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -772,7 +772,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -792,7 +792,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -812,7 +812,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -832,7 +832,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -852,7 +852,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-staging";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -872,7 +872,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-prod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -892,7 +892,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.cocoaheads.ConfigDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.cocoaheads.ConfigDemo-prod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ConfigDemo/Other-Sources/App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
