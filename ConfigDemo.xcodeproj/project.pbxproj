@@ -74,20 +74,24 @@
 		0A9FD7EA2441753B00A6B4D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A9FD7EF2441753E00A6B4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A9FD7F22441753E00A6B4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0A9FD7F42441753E00A6B4D8 /* ConfigDemoDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemoDev-Info.plist"; sourceTree = "<group>"; };
+		0A9FD7F42441753E00A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemo-Info.plist"; sourceTree = "<group>"; };
 		0A9FD8062441782300A6B4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A9FD8082441782300A6B4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A9FD80B244178E200A6B4D8 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
 		0A9FD81E24417CC800A6B4D8 /* ConfigDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9FD81F24417CC800A6B4D8 /* ConfigDemoTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemoTest-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemoTest-Info.plist"; sourceTree = "<absolute>"; };
 		0A9FD83024417CD800A6B4D8 /* ConfigDemoStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemoStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9FD83124417CD800A6B4D8 /* ConfigDemoStaging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemoStaging-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemoStaging-Info.plist"; sourceTree = "<absolute>"; };
 		0A9FD84224417CE100A6B4D8 /* ConfigDemoProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfigDemoProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9FD84324417CE100A6B4D8 /* ConfigDemoProd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemoProd-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemoProd-Info.plist"; sourceTree = "<absolute>"; };
+		0A9FD84324417CE100A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfigDemo-Info.plist"; path = "/Users/dmitry/work/cocoaheads-config-demo/ConfigDemo-Info.plist"; sourceTree = "<absolute>"; };
 		0A9FD84824417E6600A6B4D8 /* Notifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		0A9FD84C24417E6600A6B4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9FD85424417F1500A6B4D8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0A9FD85E24417FEB00A6B4D8 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		0A9FD860244180C500A6B4D8 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		0A9FD861244180CF00A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemo-Info.plist"; sourceTree = "<group>"; };
+		0A9FD862244180CF00A6B4D8 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		0A9FD863244180DF00A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemo-Info.plist"; sourceTree = "<group>"; };
+		0A9FD864244180DF00A6B4D8 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C551D70D4DFA7AA7E573E /* Pods-ConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,13 +197,13 @@
 		0A9FD7FC2441776E00A6B4D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0A9FD8042441782300A6B4D8 /* LocalizableStrings */,
-				0A9FD7EF2441753E00A6B4D8 /* Assets.xcassets */,
 				0A9FD7F12441753E00A6B4D8 /* LaunchScreen.storyboard */,
-				0A9FD7F42441753E00A6B4D8 /* ConfigDemoDev-Info.plist */,
-				0A9FD81F24417CC800A6B4D8 /* ConfigDemoTest-Info.plist */,
-				0A9FD83124417CD800A6B4D8 /* ConfigDemoStaging-Info.plist */,
-				0A9FD84324417CE100A6B4D8 /* ConfigDemoProd-Info.plist */,
+				0A9FD7EF2441753E00A6B4D8 /* Assets.xcassets */,
+				0A9FD8042441782300A6B4D8 /* LocalizableStrings */,
+				0A9FD85A24417F6500A6B4D8 /* Dev */,
+				0A9FD85D24417F7800A6B4D8 /* Prod */,
+				0A9FD85C24417F7200A6B4D8 /* Staging */,
+				0A9FD85B24417F6B00A6B4D8 /* Test */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -273,6 +277,42 @@
 				0A9FD84C24417E6600A6B4D8 /* Info.plist */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		0A9FD85A24417F6500A6B4D8 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FD85E24417FEB00A6B4D8 /* Config.plist */,
+				0A9FD7F42441753E00A6B4D8 /* ConfigDemo-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		0A9FD85B24417F6B00A6B4D8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FD864244180DF00A6B4D8 /* Config.plist */,
+				0A9FD863244180DF00A6B4D8 /* ConfigDemo-Info.plist */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		0A9FD85C24417F7200A6B4D8 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FD862244180CF00A6B4D8 /* Config.plist */,
+				0A9FD861244180CF00A6B4D8 /* ConfigDemo-Info.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		0A9FD85D24417F7800A6B4D8 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				0A9FD860244180C500A6B4D8 /* Config.plist */,
+				0A9FD84324417CE100A6B4D8 /* ConfigDemo-Info.plist */,
+			);
+			path = Prod;
 			sourceTree = "<group>";
 		};
 		4BE10323677FE29350B6C7FA /* Pods */ = {
@@ -853,7 +893,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoDev-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Dev/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -874,7 +914,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoDev-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Dev/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -894,7 +934,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoTest-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Test/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -914,7 +954,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoTest-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Test/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -934,7 +974,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoStaging-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Staging/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -954,7 +994,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoStaging-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Staging/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -974,7 +1014,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoProd-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Prod/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -994,7 +1034,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HCL9D4WBY;
-				INFOPLIST_FILE = "ConfigDemo/Resources/ConfigDemoProd-Info.plist";
+				INFOPLIST_FILE = "ConfigDemo/Resources/Prod/ConfigDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
