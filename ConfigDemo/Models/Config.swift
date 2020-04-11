@@ -9,5 +9,6 @@
 import Foundation
 
 struct Config {
-    
+    @ConfigProperty("baseURL", defaultValue: "")
+    static var baseUrl: String
 }

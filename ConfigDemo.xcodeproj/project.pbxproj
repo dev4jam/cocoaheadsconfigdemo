@@ -41,6 +41,15 @@
 		0A9FD85724417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
 		0A9FD85824417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
 		0A9FD85924417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
+		0A9FD86724418BC400A6B4D8 /* ConfigProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */; };
+		0A9FD86824418BC400A6B4D8 /* ConfigProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */; };
+		0A9FD86924418BC400A6B4D8 /* ConfigProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */; };
+		0A9FD86A24418BC400A6B4D8 /* ConfigProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */; };
+		0A9FD86B24418BC400A6B4D8 /* ConfigProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */; };
+		0A9FD86C24418D4000A6B4D8 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD85E24417FEB00A6B4D8 /* Config.plist */; };
+		0A9FD86D24418D4600A6B4D8 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD860244180C500A6B4D8 /* Config.plist */; };
+		0A9FD86E24418D4900A6B4D8 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD862244180CF00A6B4D8 /* Config.plist */; };
+		0A9FD86F24418D4C00A6B4D8 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD864244180DF00A6B4D8 /* Config.plist */; };
 		E417216E3ADFB4C3AEDE4008 /* Pods_ConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +101,7 @@
 		0A9FD863244180DF00A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemo-Info.plist"; sourceTree = "<group>"; };
 		0A9FD864244180DF00A6B4D8 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		0A9FD8652441814600A6B4D8 /* ConfigDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConfigDemo-Info.plist"; sourceTree = "<group>"; };
+		0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigProperty.swift; sourceTree = "<group>"; };
 		21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C551D70D4DFA7AA7E573E /* Pods-ConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9FD80B244178E200A6B4D8 /* App-Bridging-Header.h */,
+				0A9FD86624418BC400A6B4D8 /* ConfigProperty.swift */,
 			);
 			path = "Other-sources";
 			sourceTree = "<group>";
@@ -478,6 +489,7 @@
 				0A9FD7F32441753E00A6B4D8 /* LaunchScreen.storyboard in Resources */,
 				0A9FD80A2441782300A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD8092441782300A6B4D8 /* Localizable.strings in Resources */,
+				0A9FD86C24418D4000A6B4D8 /* Config.plist in Resources */,
 				0A9FD7F02441753E00A6B4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +501,7 @@
 				0A9FD81624417CC800A6B4D8 /* LaunchScreen.storyboard in Resources */,
 				0A9FD81724417CC800A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD81824417CC800A6B4D8 /* Localizable.strings in Resources */,
+				0A9FD86F24418D4C00A6B4D8 /* Config.plist in Resources */,
 				0A9FD81924417CC800A6B4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +513,7 @@
 				0A9FD82824417CD800A6B4D8 /* LaunchScreen.storyboard in Resources */,
 				0A9FD82924417CD800A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD82A24417CD800A6B4D8 /* Localizable.strings in Resources */,
+				0A9FD86E24418D4900A6B4D8 /* Config.plist in Resources */,
 				0A9FD82B24417CD800A6B4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +525,7 @@
 				0A9FD83A24417CE100A6B4D8 /* LaunchScreen.storyboard in Resources */,
 				0A9FD83B24417CE100A6B4D8 /* InfoPlist.strings in Resources */,
 				0A9FD83C24417CE100A6B4D8 /* Localizable.strings in Resources */,
+				0A9FD86D24418D4600A6B4D8 /* Config.plist in Resources */,
 				0A9FD83D24417CE100A6B4D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,6 +705,7 @@
 			files = (
 				0A9FD7EB2441753B00A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD7E72441753B00A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD86724418BC400A6B4D8 /* ConfigProperty.swift in Sources */,
 				0A9FD85524417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,6 +716,7 @@
 			files = (
 				0A9FD81124417CC800A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD81224417CC800A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD86824418BC400A6B4D8 /* ConfigProperty.swift in Sources */,
 				0A9FD85624417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -710,6 +727,7 @@
 			files = (
 				0A9FD82324417CD800A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD82424417CD800A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD86924418BC400A6B4D8 /* ConfigProperty.swift in Sources */,
 				0A9FD85724417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -720,6 +738,7 @@
 			files = (
 				0A9FD83524417CE100A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD83624417CE100A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD86A24418BC400A6B4D8 /* ConfigProperty.swift in Sources */,
 				0A9FD85824417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -729,6 +748,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */,
+				0A9FD86B24418BC400A6B4D8 /* ConfigProperty.swift in Sources */,
 				0A9FD85924417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
