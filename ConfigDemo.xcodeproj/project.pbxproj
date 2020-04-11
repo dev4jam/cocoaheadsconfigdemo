@@ -36,6 +36,11 @@
 		0A9FD83D24417CE100A6B4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD7EF2441753E00A6B4D8 /* Assets.xcassets */; };
 		0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */; };
 		0A9FD84F24417E6600A6B4D8 /* Notifications.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A9FD84824417E6600A6B4D8 /* Notifications.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A9FD85524417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
+		0A9FD85624417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
+		0A9FD85724417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
+		0A9FD85824417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
+		0A9FD85924417F1500A6B4D8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FD85424417F1500A6B4D8 /* Config.swift */; };
 		E417216E3ADFB4C3AEDE4008 /* Pods_ConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +87,7 @@
 		0A9FD84824417E6600A6B4D8 /* Notifications.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notifications.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9FD84A24417E6600A6B4D8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		0A9FD84C24417E6600A6B4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9FD85424417F1500A6B4D8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		21F19971F9CE5831343961DC /* Pods-ConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
 		885ACF1426A745560BCA8797 /* Pods_ConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C551D70D4DFA7AA7E573E /* Pods-ConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-ConfigDemo/Pods-ConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +207,7 @@
 		0A9FD7FD2441779100A6B4D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0A9FD85424417F1500A6B4D8 /* Config.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -643,6 +650,7 @@
 			files = (
 				0A9FD7EB2441753B00A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD7E72441753B00A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD85524417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +660,7 @@
 			files = (
 				0A9FD81124417CC800A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD81224417CC800A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD85624417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +670,7 @@
 			files = (
 				0A9FD82324417CD800A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD82424417CD800A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD85724417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,6 +680,7 @@
 			files = (
 				0A9FD83524417CE100A6B4D8 /* ViewController.swift in Sources */,
 				0A9FD83624417CE100A6B4D8 /* AppDelegate.swift in Sources */,
+				0A9FD85824417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +689,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A9FD84B24417E6600A6B4D8 /* NotificationService.swift in Sources */,
+				0A9FD85924417F1500A6B4D8 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
